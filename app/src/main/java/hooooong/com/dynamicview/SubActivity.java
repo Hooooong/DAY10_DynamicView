@@ -65,10 +65,10 @@ public class SubActivity extends AppCompatActivity {
         LinearLayout.LayoutParams vl2 = new LinearLayout.LayoutParams(500, 500);
 
         // view 에 setLayoutParams 를 설정한다.
-        // 이렇게 되면 player 의 ViewGroup 에 있는
         player.setLayoutParams(vl1);
         player2.setLayoutParams(vl2);
 
+        // 컨테이너에 뷰를 넣는다.
         linearLayout.addView(player);
         linearLayout.addView(player2);
 
