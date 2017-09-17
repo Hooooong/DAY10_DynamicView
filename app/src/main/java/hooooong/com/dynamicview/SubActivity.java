@@ -57,7 +57,7 @@ public class SubActivity extends AppCompatActivity {
          * 그럴 경우에는 ViewGroup.LayoutParams 를 생성하여
          * ViewGroup 에 View 들을 어떻게 배치할지 지시해야 한다.
          *
-         * 즉, layout_width, layout_height 를 설정하는 것과 동일하다.
+         * 즉, layout_width, layout_height 를 설정하는 것과 유사하다.
          *
          */
 
